@@ -16,6 +16,9 @@
            <button id="CustomButton7" label="Code Block" size="large" image="CodeBlock" onAction="ApplyStyles.ApplyStyle_CodeBlock" /> 
 		   <button id="CustomButton8" label="Inline Code" size="large" image="InlineCode" onAction="ApplyStyles.ApplyStyle_InlineCode" /> 
          </group > 
+        <group id="CustomGroup4" label="Utilities"> 
+           <button id="CustomButton9" label="Apply Code Styles to Monospace Text" size="large" image="StyleCodeUtility" onAction="Utilities.PrepDoc_styleMonospace" /> 
+         </group > 
       </tab>
      </tabs> 
    </ribbon> 
