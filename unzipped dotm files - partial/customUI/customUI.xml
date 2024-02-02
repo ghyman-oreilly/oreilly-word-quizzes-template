@@ -17,7 +17,8 @@
 		   <button id="CustomButton8" label="Inline Code" size="large" image="InlineCode" onAction="ApplyStyles.ApplyStyle_InlineCode" /> 
          </group > 
         <group id="CustomGroup4" label="Utilities"> 
-           <button id="CustomButton9" label="Apply Code Styles to Monospace Text" size="large" image="StyleCodeUtility" onAction="Utilities.PrepDoc_styleMonospace" /> 
+           <button id="CustomButton9" label="Apply Code Styles to Monospace Text" size="large" image="StyleCodeUtility" onAction="Utilities.PrepDoc_styleMonospace" />
+           <button id="CustomButton10" label="Apply Option and Rationale Styles Throughout Doc" size="large" image="ApplyStylesUtility" onAction="Utilities.ApplyStylesToQuizDocument" supertip="Apply QuestionStem styles throughout document before running this script, which will then apply QuestionOption and QuestionRationale Styles. Relies on presence of bracketed 'Rationale' flags in doc." />    
          </group > 
       </tab>
      </tabs> 
