@@ -19,6 +19,7 @@
         <group id="CustomGroup4" label="Utilities"> 
            <button id="CustomButton9" label="Apply Code Styles to Monospace Text" size="large" image="StyleCodeUtility" onAction="Utilities.PrepDoc_styleMonospace" />
            <button id="CustomButton10" label="Apply Option and Rationale Styles Throughout Doc" size="large" image="ApplyStylesUtility" onAction="Utilities.ApplyStylesToQuizDocument" supertip="Apply QuestionStem styles throughout document before running this script, which will then apply QuestionOption and QuestionRationale Styles. Relies on presence of bracketed 'Rationale' flags in doc." />    
+           <button id="CustomButton11" label="Check Quiz Formatting/Tagging Throughout Doc" size="large" image="CheckFormattingUtility" onAction="Utilities.CheckQuizFormatting" supertip="Checks the document for common formatting issues." />    
          </group > 
       </tab>
      </tabs> 
