@@ -2,24 +2,28 @@
    <ribbon> 
      <tabs> 
        <tab id="CustomTab1" label="ORM: Apply Quiz Styles"> 
-         <group id="CustomGroup1" label="Paragraph Styles: Primary"> 
+         <group id="CustomGroup1" label="Question Paragraph Styles: Primary"> 
            <button id="CustomButton1" label="Question Stem" size="large" image="QuestionStem" onAction="ApplyStyles.ApplyStyle_QuestionStem" /> 
 		   <button id="CustomButton2" label="Question Option" size="large" image="QuestionOption" onAction="ApplyStyles.ApplyStyle_QuestionOption" /> 
 		   <button id="CustomButton3" label="Queston Rationale" size="large" image="QuestionRationale" onAction="ApplyStyles.ApplyStyle_QuestionRationale" />
          </group > 
-		 <group id="CustomGroup2" label="Paragraph Styles: Continuation"> 
+		 <group id="CustomGroup2" label="Question Paragraph Styles: Continuation"> 
            <button id="CustomButton4" label="Question Stem Continued" size="large" image="QuestionStemContinued" onAction="ApplyStyles.ApplyStyle_QuestionStemContinued" /> 
 		   <button id="CustomButton5" label="Question Option Continued" size="large" image="QuestionOptionContinued" onAction="ApplyStyles.ApplyStyle_QuestionOptionContinued" /> 
 		   <button id="CustomButton6" label="Question Rationale Continued" size="large" image="QuestionRationaleContinued" onAction="ApplyStyles.ApplyStyle_QuestionRationaleContinued" /> 
          </group > 
-          <group id="CustomGroup3" label="Character Styles"> 
+          <group id="CustomGroup3" label="Question Character Styles"> 
            <button id="CustomButton7" label="Code Block" size="large" image="CodeBlock" onAction="ApplyStyles.ApplyStyle_CodeBlock" /> 
 		   <button id="CustomButton8" label="Inline Code" size="large" image="InlineCode" onAction="ApplyStyles.ApplyStyle_InlineCode" /> 
          </group > 
-        <group id="CustomGroup4" label="Utilities"> 
-           <button id="CustomButton9" label="Apply Code Styles to Monospace Text" size="large" image="StyleCodeUtility" onAction="Utilities.PrepDoc_styleMonospace" />
-           <button id="CustomButton10" label="Apply Option and Rationale Styles Throughout Doc" size="large" image="ApplyStylesUtility" onAction="Utilities.ApplyStylesToQuizDocument" supertip="Apply QuestionStem styles throughout document before running this script, which will then apply QuestionOption and QuestionRationale Styles. Relies on presence of bracketed 'Rationale' flags in doc." />    
-           <button id="CustomButton11" label="Check Quiz Formatting/Tagging Throughout Doc" size="large" image="CheckFormattingUtility" onAction="Utilities.CheckQuizFormatting" supertip="Checks the document for common formatting issues." />    
+         <group id="CustomGroup4" label="Quiz Styles"> 
+           <button id="CustomButton9" label="Quiz Title" size="large" image="QuizTitle" onAction="ApplyStyles.ApplyStyle_QuizTitle" /> 
+		   <button id="CustomButton10" label="Quiz Type" size="large" image="QuizType" onAction="ApplyStyles.ApplyStyle_QuizType" /> 
+        </group >     
+        <group id="CustomGroup5" label="Utilities"> 
+           <button id="CustomButton11" label="Apply Code Styles to Monospace Text" size="large" image="StyleCodeUtility" onAction="Utilities.PrepDoc_styleMonospace" />
+           <button id="CustomButton12" label="Apply Option and Rationale Styles Throughout Doc" size="large" image="ApplyStylesUtility" onAction="Utilities.ApplyStylesToQuizDocument" supertip="Apply QuestionStem styles throughout document before running this script, which will then apply QuestionOption and QuestionRationale Styles. Relies on presence of bracketed 'Rationale' flags in doc." />    
+           <button id="CustomButton13" label="Check Quiz Formatting/Tagging Throughout Doc" size="large" image="CheckFormattingUtility" onAction="Utilities.CheckQuizFormatting" supertip="Checks the document for common formatting issues." />    
          </group > 
       </tab>
      </tabs> 
